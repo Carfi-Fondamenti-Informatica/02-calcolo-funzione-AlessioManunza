@@ -1,5 +1,4 @@
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 int main() {
@@ -10,11 +9,11 @@ int main() {
         cout << z << endl;
     }
     else if (x>=0 && y<=0) {
-        z=(a*pow(x,2))-(b*y);
+        z=(a*x*x)-(b*y);
         cout << z << endl;
     }
     else {
-        z=(a*x)-(b*pow(y,2));
+        z=(a*x)-(b*y*y);
         cout << z << endl;
     }
    return 0;
